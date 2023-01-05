@@ -1,0 +1,243 @@
+ 
+:root {
+  font-size: 10px;
+  font-family:  Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1); /*opacity*/
+}
+.header-content-div {
+  max-width: 80%;
+  width: auto;
+  margin: auto;
+}
+#header-img {
+  height: 60px;
+  width: auto;
+}
+nav {
+  position: relative;
+  top: 5px;
+  float: right;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px;
+}
+.nav-link {
+  color: #333333;
+  margin: 8px;
+  padding: 8px;
+}
+.nav-link:hover {
+  color: #493323;
+  border-bottom: 2px solid #493323;
+}
+.nav-link:active {
+  color: #91684A;
+}
+.backgroundpic{
+	background-image: url("coffeebeansbg.png");
+	max-width: inherit;
+}
+.flexible{
+	display: flex;
+	text-align: center;
+	align-content: center;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.home-sec {
+  font-family: "Montserrat";
+  background-color: #ffffff;
+  text-align: start;
+  min-height: 620px;
+  height: auto;
+  margin: 0 auto 80px auto;
+  justify-content: start;
+  max-width: 900px;
+  color: #333333;
+}
+.eye-grabber {
+  flex: 1;
+  padding: 3px;
+}
+.eye-grabber h1 {
+  font-size: 50px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.eye-grabber h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #666;
+}
+.eye-grabber-img {
+  flex: 1;
+}
+.eye-grabber-img img {
+  max-width: 100%;
+}
+.btn {
+  border: none;
+  font-size: 18px;
+  border-radius:25px;
+  padding: 19px;
+  background-color: #5C3D2E;
+  color: #fafafa;
+}
+.btn:hover {
+  background-color: #EAAC7F;
+  cursor: pointer;
+}
+.section-heading {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  padding: 50px;
+  margin: 0;
+  
+}
+.sec-content-div {
+  font-size: 20px;
+  text-align: start;
+  padding: 20px;
+  width: auto;
+  justify-content:center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.sec-padding {
+  padding: 50px;
+}
+#about {
+  background-color: #fafafa;
+}
+#about img {
+  max-width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
+}
+#menu {
+  background-color: #e3e3e3;
+}
+.tile {
+  background-color: #FFFFFF;
+  height: 400px;
+  width: 25rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 15px;
+  transition: all 0.2s;
+  padding: 20px;
+  margin: 20px;
+}
+.tile img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.tile h4 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 1rem 0;
+  color: #493323;
+  margin: 0;
+}
+.tile p {
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+}
+.tile:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
+}
+#Stores {
+  background-color: #AD8B73;
+}
+.bars {
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 20px;
+  width: 100%;
+}
+
+.bars .icon-container {
+  max-width: 10%;
+  flex: 1;
+}
+.icon-container img {
+  max-height: 60%;
+  max-width: 60%;
+}
+.bars .txt-container {
+  flex: 10;
+  padding: 5px;
+}
+.txt-container h5 {
+  font-size: 100%;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.txt-container p {
+  font-size: 25px;
+}
+#contact {
+  background-color: #493323;
+  color: #fafafa;
+
+}
+#contact {
+  background-color: #493323;
+  color: #fafafa;
+
+}
+#contact h6 {
+  font-family:"Arial";
+  font-size: 30px;
+  font-weight: 500;
+	
+}
+input[type="email"] {
+  border: none;
+  outline: 0;
+  font-size: 15px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 20px;
+}
+footer {
+  font-size: 10px;
+  background-color: #493323;
+  text-align: left;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+footer a {
+  color: #e3e3e3;
+}
